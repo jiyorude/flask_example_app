@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Flask App - Home{% endblock %}
+
+{% block body_content %}
+    <h2>New phone who dis</h2>
+    <form action="/greet" method="post">
+        <input type="text" name="name" id="name">
+        <input type="submit" value="Submit">
+    </form>
+{% endblock %}
