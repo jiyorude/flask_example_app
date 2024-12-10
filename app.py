@@ -24,4 +24,4 @@ def clock():
     return render_template('clock.html')
 
 if __name__ == "__main__":
-    app.run(host='localhost', port=5500, debug=True)
+    app.run()
